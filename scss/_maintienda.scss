@@ -1,0 +1,31 @@
+.container {
+    .venta1{
+        margin: 20px;
+        color: black;
+    }
+    
+    .venta2{
+        margin: 20px;
+        color: black;
+    }
+    
+    .venta1:hover{
+        box-shadow: 5px 5px 20px rgba(245, 11, 11, 0.4);
+        transform: translate(-3%);
+    }
+    
+    .venta2:hover{
+        box-shadow: 5px 5px 20px rgba(238, 3, 3, 0.4);
+        transform: translate(-3%);
+    }
+    .card-text {
+        color: black;
+    }
+    
+.card-title {
+    text-align: center;
+    color: rgb(1, 248, 112);
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+}
