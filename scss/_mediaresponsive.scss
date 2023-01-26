@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 480px) {
+    .nosotros1 {
+        margin: 40;
+        display: grid;
+        grid-template-areas: 
+        "texto none"
+        "isra none";
+        grid-template-columns: auto;
+        
+        
+    }
+
+    footer {
+      background-color: transparent;
+        align-items: center;
+          }
+
+          .menu-item { 
+            color: white; 
+          }
+
+   header {
+    padding: 50px;
+    margin: 20px;
+   }
+
+    h2 {
+        width: 100px;
+        grid-area: texto;
+        font-size: 85px;
+    }
+    .logocontacto {
+        width: 150px;
+        grid-area: isra;
+    } 
+    
+}
