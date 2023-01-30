@@ -1,54 +1,5 @@
 footer {
-  left: 0;
-  width: 100vmax;
-  height: 150px;
-  position: absolute;
-  flex-direction: column;
-  background-color: #df1a1a;
   color: #0f0f0f; }
-  footer .social-icon {
-    margin: 50%;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    border: 1px solid #0a0a0a;
-    background-image: url("../assets/img/instagram.png");
-    background-position: center;
-    background-size: 40px;
-    background-repeat: no-repeat;
-    margin: 1rem; }
-  footer .social-icon-container,
-  footer .footer-menu-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 1rem; }
-  footer .social-icon:hover {
-    background-color: black;
-    filter: invert(1); }
-  footer .social-icon:nth-of-type(2) {
-    background-image: url("../assets/img/facebook.png"); }
-  footer .social-icon:nth-of-type(3) {
-    background-image: url("../assets/img/whatsapp.png"); }
-  footer .social-icon:nth-of-type(4) {
-    background-image: url("../assets/img/discord.png"); }
-  footer .footer-menu-container {
-    list-style: none;
-    color: #131212;
-    font-size: 14px;
-    align-items: 1%; }
-  footer .menu-item {
-    cursor: pointer;
-    opacity: 0.6; }
-  footer .menu-item:hover {
-    opacity: 1; }
-  footer .copyright {
-    color: #0f0f0f;
-    opacity: 0.3;
-    text-align: center; }
-  footer li {
-    color: black; }
 
 nav {
   width: 100vmax;
@@ -216,6 +167,11 @@ nav {
     text-align: center;
     color: #01f870;
     font-family: Arial, Helvetica, sans-serif; }
+  .container .mediasend {
+    background-color: #ee0303;
+    text-decoration: none;
+    color: white;
+    text-align: center; }
 
 @media screen and (max-width: 480px) {
   .nosotros1 {
@@ -223,14 +179,6 @@ nav {
     display: grid;
     grid-template-areas: "texto none" "isra none";
     grid-template-columns: auto; }
-  footer {
-    background-color: transparent;
-    align-items: center; }
-  .menu-item {
-    color: white; }
-  header {
-    padding: 50px;
-    margin: 20px; }
   h2 {
     width: 100px;
     grid-area: texto;
