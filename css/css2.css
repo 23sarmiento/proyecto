@@ -2,7 +2,7 @@ footer {
   color: #0f0f0f; }
 
 nav {
-  width: 100vmax;
+  width: 100%;
   background-color: #df1a1a; }
   nav .logofooter {
     width: 50px; }
@@ -120,8 +120,6 @@ nav {
     font-family: 'Lobster', cursive; }
 
 .nosotros1 {
-  width: 100vmax;
-  height: 100;
   padding: 71px; }
   .nosotros1 .logocontacto {
     width: 500px; }
@@ -173,19 +171,18 @@ nav {
     color: white;
     text-align: center; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .nosotros1 {
-    margin: 40;
     display: grid;
-    grid-template-areas: "texto none" "isra none";
-    grid-template-columns: auto; }
-  h2 {
-    width: 100px;
-    grid-area: texto;
-    font-size: 85px; }
-  .logocontacto {
-    width: 150px;
-    grid-area: isra; } }
+    grid-template-areas: "texto, texto" "isra, isra";
+    height: 80vh; }
+    .nosotros1 h2 {
+      grid-area: texto;
+      font-size: 50px;
+      margin: 15px; }
+    .nosotros1 .logocontacto {
+      width: 225px;
+      grid-area: isra; } }
 
 * {
   box-sizing: border-box;
