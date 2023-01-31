@@ -1,24 +1,59 @@
-.main1{
-    grid-area: main1;
-    height: 100vh;
-    width: 600px;
-    padding: 30px;
-    list-style: none;
-    margin-top: 100px;
-    margin: 25px;
-    font-size: 25px;
-    display: grid;
-    background-color: rgba(43, 42, 42, 0.562);
-    border-radius: 50px;
-    position: relative;
- .logofooter{
-    width: 50px;
-    grid-area:logofooter;
-}   
-.h1inicio {
-    font-family: 'Lobster', cursive;
+
+.inicio {
+    width: 100%;
+    height: 500px;
+    
+    .logote {
+    height: 440px;
+    width: 400px;
+    background: rgb(53, 53, 53);
+    margin: auto;
+    box-shadow: 7px 13px 37px rgb(245, 8, 8);
+    padding: 20px 30px;
+    border-top: 4px #B11313 solid ;
+
+    
+.logote h1 {
+    margin: 0;
+    text-align: center;
+    height: 50px; 
+    margin-bottom: 30px;
+    border-bottom: 1px solid #B11313 ;
+    font-size: 20px;
+}
+
+.control {
+    width: 100%;
+    border: transparent;
+    margin-bottom: 15px ;
+    padding: 11px 10px ;
+    background: #555;
+    font-size: 14px;
+    
+     
+}
+
+.direccion {
+    font-size: 10px;
+    color: rgb(165, 162, 162);
+    margin: 2px;
+    display: inline;
+}
+
+.control2{
+  width: 100%;
+  height: 40px;
+  background: #B11313;
+  border: none;
+  color: white;
+  margin-bottom: 16px;
+
+
 }
 }
+}
+
+
 
 
 

@@ -1,5 +1,19 @@
 
 @media screen and (max-width: 580px) {
+    .inicio { 
+
+        width: 100%;
+        .logote {
+            height: 440px;
+            width: 300px;
+            background: rgb(53, 53, 53);
+            margin: auto;
+            box-shadow: 7px 13px 37px rgb(44, 8, 245);
+            padding: 20px 30px;
+            border-top: 4px #2b13b1 solid ;
+    }
+    
+    
     .nosotros1 {
         display: grid;
         grid-template-areas: 
@@ -20,8 +34,7 @@
         
     }
 
-   
-
-   
-    
 }
+
+}
+
