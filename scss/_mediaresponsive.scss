@@ -1,5 +1,8 @@
 
 @media screen and (max-width: 580px) {
+
+   
+
     .inicio { 
 
         width: 100%;
@@ -12,29 +15,53 @@
             padding: 20px 30px;
             border-top: 4px #2b13b1 solid ;
     }
-    
-    
-    .nosotros1 {
-        display: grid;
-        grid-template-areas: 
-        "texto, texto"
-        "isra, isra";
-        height: 80vh;
-        h2 {
-            grid-area: texto;
-            font-size: 50px;
-            margin: 15px;
-        }
-        .logocontacto {
-            width: 225px;
-            grid-area: isra;
-            
-        }  
-        
-        
-    }
-
 }
 
+.nosotros1 {
+    display: grid;
+    grid-template-areas: 
+    "texto, texto"
+    "isra, isra";
+    height: 80vh;
+    h2 {
+        grid-area: texto;
+        font-size: 50px;
+        margin: 15px;
+    }
+    .logocontacto {
+        width: 195px;
+        grid-area: isra;
+        
+    }  
+    
+    
+}
+
+.containerform {
+    form textarea {
+        width: 300px;
+        margin: 20px;
+        background-color: transparent;
+    }
+    form .campo, textarea {
+
+    margin: 20px;
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid;
+        margin-bottom: 20 px;
+        border-radius: 3px;
+        outline: 0px;
+        background-color: transparent;
+    }
+}
+
+.cotactocard{
+    .card{ .card-img-top {
+        width: 200px;
+    }}
+   
+}
 }
 

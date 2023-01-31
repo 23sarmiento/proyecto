@@ -40,12 +40,6 @@ nav {
     border-radius: 3px;
     outline: 0px;
     background-color: transparent; }
-  .containerform form textarea {
-    max-width: 400px;
-    min-width: 430px;
-    min-height: 140px;
-    max-height: 150px;
-    background-color: transparent; }
   .containerform form .btn {
     padding: 15px;
     font-size: 16px;
@@ -103,10 +97,11 @@ nav {
 
 .inicio {
   width: 100%;
-  height: 100vh; }
+  height: 100vh;
+  margin: 20px; }
   .inicio .logote {
-    height: 440px;
-    width: 400px;
+    height: 540px;
+    width: 500px;
     background: #353535;
     margin: auto;
     box-shadow: 7px 13px 37px #f50808;
@@ -140,6 +135,7 @@ nav {
       margin-bottom: 16px; }
 
 .nosotros1 {
+  margin: 20px;
   padding: 71px; }
   .nosotros1 .logocontacto {
     width: 500px; }
@@ -202,17 +198,33 @@ nav {
       box-shadow: 7px 13px 37px #2c08f5;
       padding: 20px 30px;
       border-top: 4px #2b13b1 solid; }
-    .inicio .nosotros1 {
-      display: grid;
-      grid-template-areas: "texto, texto" "isra, isra";
-      height: 80vh; }
-      .inicio .nosotros1 h2 {
-        grid-area: texto;
-        font-size: 50px;
-        margin: 15px; }
-      .inicio .nosotros1 .logocontacto {
-        width: 225px;
-        grid-area: isra; } }
+  .nosotros1 {
+    display: grid;
+    grid-template-areas: "texto, texto" "isra, isra";
+    height: 80vh; }
+    .nosotros1 h2 {
+      grid-area: texto;
+      font-size: 50px;
+      margin: 15px; }
+    .nosotros1 .logocontacto {
+      width: 195px;
+      grid-area: isra; }
+  .containerform form textarea {
+    width: 300px;
+    margin: 20px;
+    background-color: transparent; }
+  .containerform form .campo, .containerform textarea {
+    margin: 20px;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid;
+    margin-bottom: 20 px;
+    border-radius: 3px;
+    outline: 0px;
+    background-color: transparent; }
+  .cotactocard .card .card-img-top {
+    width: 200px; } }
 
 * {
   box-sizing: border-box;
