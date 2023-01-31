@@ -1,5 +1,5 @@
 footer {
-  box-shadow: 7px 7px 13px 37px #f50808;
+  box-shadow: 7px 7px 7px 7px #f50808;
   border-top: 4px #B11313 solid; }
 
 nav {
@@ -102,7 +102,7 @@ nav {
   font-family: 'Lobster', cursive; }
 
 .inicio {
-  width: 100%;
+  width: 100vh;
   height: 500px; }
   .inicio .logote {
     height: 440px;
